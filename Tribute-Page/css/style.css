@@ -1,0 +1,92 @@
+body {
+  background-color: #060606;
+}
+
+h1 {
+  color: #060606;
+  top: 20%;
+  font-family: Monospace;
+  text-align: center;
+  font-size: 5vw;
+  background-color: #f9d472;
+  padding: 1.5%;
+  margin-top: 0.5em;
+}
+
+.image-cropper {
+  display: block;
+  width: 20vw;
+  margin: 2% auto;
+}
+
+h2 {
+  text-align: center;
+  font-family: Monospace;
+  color: #f9d472;
+  background-color: #060606;
+  margin-top: 3%;
+  font-size: 3vw;
+}
+
+.intro {
+  color: #f9d472;
+  text-align: justify;
+  margin: 2% 10%;
+  text-align: justify;
+  font-size: 1.45vw;
+}
+
+.timeline {
+  background-color: silver;
+  font-family: Monospace;
+  text-align: justify;
+  padding: 1% 0% 0.1% 1%;
+  font-size: 1.45vw;
+}
+
+h3 {
+  font-family: Monospace;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.trapezoid {
+  width: 100%;
+  height: auto;
+  border: solid 5vh;
+  border-color: #f9d472 transparent;
+}
+
+.more {
+  background-color: #060606;
+  text-align: center;
+  font-size: 3vw;
+  color: #f9d472;
+  width: 100%;
+  border: solid 5vh;
+  border-color: #f9d472 transparent #f9d472 transparent;
+}
+
+.col-xs-6 {
+  display: block;
+  margin: 0 auto;
+}
+
+iframe {
+  max-width: 100%;
+  max-height: 100%;
+  width: 40vw;
+  height: 22.5vw;
+  margin: 2vh 0;
+}
+
+footer {
+  background-color: silver;
+  font-family: Monospace;
+  text-align: center;
+  padding: 2vh 0 0.5vh 0;
+}
+
+h4 {
+  font-size: 1vw;
+}
