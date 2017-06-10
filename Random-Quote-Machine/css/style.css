@@ -1,0 +1,21 @@
+.machine {
+  background: white;
+  text-align: center;
+  margin-top: 15vh;
+}
+
+h1 {
+  font-family: 'Amatic SC', Monospace;
+  font-size: 400%;
+}
+
+#random_quote {
+  font-family: 'Bad Script';
+  font-size: 200%;
+}
+
+btn {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
