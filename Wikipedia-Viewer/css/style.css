@@ -1,0 +1,30 @@
+h1 {
+  font-family: Comfortaa;
+  font-size: 300%;
+}
+
+h3 {
+  font-family: Comfortaa;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.program {
+  text-align: center;
+  margin-top: 2%;
+}
+
+#wikipediaText {
+  width: 25%;
+  margin-top: 1%;
+}
+
+#wikipedia-results {
+  width: 80%;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 10px 0px;
+}
