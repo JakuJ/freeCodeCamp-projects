@@ -1,0 +1,49 @@
+body {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  font-family: "Audiowide";
+}
+
+h1 {
+  font-size: 70px;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: inherit;
+  margin: 10px 10px 0 10px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+p {
+  margin-top: -30px;
+  font-size: 15px;
+}
+
+button:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.row1 {
+  margin: 20px 0 0 0;
+}
+
+.row2 {
+  margin: -10px 0 0 0;
+}
+
+canvas {
+  margin-top: -60px;
+  cursor: pointer;
+}

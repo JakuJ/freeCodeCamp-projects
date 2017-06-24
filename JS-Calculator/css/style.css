@@ -1,0 +1,104 @@
+body {
+  background-color: grey;
+}
+
+.external {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  position: relative;
+  text-align: center;
+  font-family: Crushed;
+  font-size: 1.5em;
+  letter-spacing: 4px;
+  margin-top: 5px;
+}
+
+.calculator {
+  position: relative;
+  background-color: white;
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+  border-radius: 15px;
+  margin: 10vh auto;
+  height: 25em;
+  width: 20em;
+  overflow: hidden;
+}
+
+.display {
+  background-color: #232824;
+  position: relative;
+  width: 100%;
+  height: 20%;
+  margin: -1em 0 0 0;
+  border-radius: 15px;
+  font-family: VT323;
+  color: #518c55;
+  text-align: right;
+  padding-right: 10px;
+}
+
+#current {
+  border-radius: inherit;
+  position: relative;
+  height: 60%;
+  font-size: 250%;
+}
+
+#history {
+  position: relative;
+  border-radius: inherit;
+  height: 40%;
+}
+
+.buttons {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin-top: 0.5em;
+  border-radius: 5px;
+  padding: 5px 0 0 20px;
+  border-color: #232824;
+  border: 10px;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: #232824;
+  margin: 5px 10px;
+  width: 50px;
+  height: 40px;
+  box-shadow: 0px 0px 0px 0px #222121, inset -1px -3px 1px 1px #515151;
+}
+
+button:active {
+  transform: translate(1px, 3px);
+  box-shadow: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.red {
+  background-color: #DD1100;
+}
+
+.equals {
+  height: 90px;
+  margin-bottom: -50px;
+}
+
+.zero {
+  width: 120px;
+}
+
+a {
+  color: #DD1100;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>freeCodeCamp: Pomodoro Clock</title>
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+	<h1>Pomodoro Clock</h1>
+<div ng-app="clock" ng-controller="clockCtrl">
+	<div class="row row1">
+		<div class="col-sm-6">Break</div>
+		<div class="col-sm-6">Session</div>
+	</div>
+	<div class="row row2">
+		<div class="col-sm-6"><button ng-click="changeBreak(-1)">-</button>{{breakLength}}<button ng-click="changeBreak(1)">+</button></div>
+		<div class="col-sm-6"><button ng-click="changeSession(-1)">-</button>{{sessionLength}}<button ng-click="changeSession(1)">+</button></div>
+	</div>
+	<div ng-click="runClock()"><canvas id="timer" width="500" height="500"></canvas></div>
+</div>
+<footer class="text-center">
+  <p>coded by <a href="https://github.com/JakuJ">Jakub Janaszkiewicz</a></p>
+</footer>
+</body>
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
