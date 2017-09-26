@@ -1,0 +1,100 @@
+.home{
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  color: white;
+}
+.background-image{
+  background: url("http://goldengridsystem.com/wp-content/uploads/2016/10/responsive-design.jpg") no-repeat center center fixed;
+  background-size: cover;
+  filter: brightness(40%);
+  position: absolute;
+  width:100%;
+  height: 80vh;
+}
+.row1{
+  font-size: 20px;
+  position: fixed;
+  width: 105%;
+  cursor: pointer;
+  z-index: 999;
+  background: black;
+}
+h1{
+  position: relative;
+  top: 30vh;
+  font-size: 50px;
+}
+h3{
+  position: relative;
+  top: 30vh;
+  font-size: 20px;
+  color: gold;
+}
+#about{
+  background-color: rgb(35,40,36);
+  color: white;
+  text-align: justified;
+  margin-top: -10px;
+}
+#about p{
+  margin: 50px 100px;
+}
+#about h5{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  top: 30px;
+  position: relative;
+}
+#projects{
+  text-align: center;
+  position: relative;
+  width: 100%;
+  background: silver;
+  padding-bottom:30px;
+}
+#projects h5{
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  padding-top: 30px;
+}
+#simon{
+  width:40%;
+  position: relative;
+  margin: 10px auto;
+}
+#calculator{
+  width:40%;
+  position: relative;
+  margin: 10px auto;
+}
+#quote{
+  width: 40%;
+  margin: 0 auto;
+}
+#viewer{
+  width:40%;
+  margin: 0 auto;
+}
+#contact h5{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  padding-top: 20px;
+}
+.icons {
+  text-align: center;
+}
+.icons i{
+  color: black;
+  margin: 0 10px;
+}
+#ending{
+  text-align: center;
+  font-family: Monospace;
+  font-size: 20px;
+  margin-top: 5px;
+}

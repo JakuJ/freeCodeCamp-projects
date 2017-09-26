@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>freeCodeCamp: Simon Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class='container container-fluid' id='game'>
+  <div class='buttons'>
+  <div class="row">
+  <div class='col-xs-6 t0 green button unclickable'>
+  </div>
+  <div class='col-xs-6 t1 red button unclickable'>
+  </div>
+  </div>
+  <div class='row'>
+  <div class='col-xs-6 t2 yellow button unclickable'>
+  </div>
+  <div class='col-xs-6 t3 blue button unclickable'>
+  </div>
+  </div>
+    <div id='controls'>
+      <h3>SIMON<span class="small">®</span></h3>
+      <div id='count'>--</div>
+      <p id='count_text'>Count</p>
+      <button id='start'>00</button>
+      <p id='start_text'>Start</p>
+      <div class='strict_led'></div>
+      <button id='strict'>00</button>
+      <p id='strict_text'>Strict</p>
+      <div class="onoffswitch">
+        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
+        <label class="onoffswitch-label" for="myonoffswitch"></label>
+      </div>
+      <p id='switch_text'>ON/OFF</p>
+    </div>
+  </div>
+</div>
+<footer>coded by <a href="https://github.com/JakuJ">Jakub Janaszkiewicz</a></footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
