@@ -1,2 +1,2 @@
 # freeCodeCamp-projects
-Front End Certificate, here I come!
+A repository of projects done to earn Front-End certification @ freeCodeCamp.
